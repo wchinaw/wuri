@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/wuri.iml" filepath="$PROJECT_DIR$/wuri.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wuri/wuri-wuri.iml" filepath="$PROJECT_DIR$/wuri/wuri-wuri.iml" />
+    </modules>
+  </component>
+</project>

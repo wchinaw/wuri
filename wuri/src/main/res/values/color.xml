@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tab_bg">#2d3f51</color>
+    <color name="tab_bg_select">#18a185</color>
+
+    <color name="color">#816743</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tab_text_select">@color/white</color>
+    <color name="tab_text_default">@color/tab_bg_select</color>
+
+    <color name="news_tab_text_default">#2d3f51</color>
+    <color name="news_tab_text_select">#18a185</color>
+
+    <color name="list_item_pressed">#f9efe2</color>
+
+    <color name="a9a9a9">#a9a9a9</color>
+
+    <color name="share_transparent">#34000000</color>
+    <color name="dialogbackgournd">#00000000</color>
+
+    <color name="comment_icon_press">#ecf0f1</color>
+    <color name="dialog_bg_transparent">#CC000000</color>
+    <color name="yellow">#18a185</color>
+    <color name="black">#000000</color>
+    <color name="followed_select">#d8ece7</color>
+    <color name="followed_unselect">#edf1f2</color>
+    <color name="thread_title">#2e4052</color>
+
+    <color name="btn_left">#ecf0f1</color>
+    <color name="btn_left_down">#dddddd</color>
+    <color name="btn_right">#18a185</color>
+    <color name="btn_rigth_down">#1e967d</color>
+    <color name="action_text">#cccccc</color>
+
+    <!-- chat -->
+    <color name="chat_bg">#eeeeee</color>
+
+    <color name="chat_divider">#cfcfcf</color>
+    <color name="userinfo_bottombar_unselected">#282828</color>
+    <color name="userinfo_bottombar_selected">#000000</color>
+    <color name="chat_main_divider">#B6B6B9</color>
+    <color name="chat_main_content">#7C7C7C</color>
+    <color name="chat_main_time">#A9A9A9</color>
+    <color name="chat_main_button_n">#fcfcfc</color>
+    <color name="chat_main_button_p">#eeeeee</color>
+    <color name="chat_big_audio_transparent">#CC000000</color>
+
+    <color name="mobjam_chat_text_color">#000000</color>
+    <color name="mobjam_helper_chat_text_color">#b89465</color>
+
+    <color name="mobjam_helper_chat_gift_title_color">#b89465</color>
+    <color name="mobjam_chat_gift_title_color">#222222</color>
+
+    <color name="mobjam_chat_gift_line_color">#dddddd</color>
+    <color name="mobjam_helper_chat_gift_line_color">#b89465</color>
+    <color name="mobjam_helper_chat_share_bg">#f9efe2</color>
+    <color name="mobjam_chat_share_bg">#15000000</color>
+    <color name="textcolor_link">#5FC2E5</color>
+    <color name="send_big_pic_default">#7C7C7C</color>
+
+    <color name="dialog_divider">#eeeeee</color>
+    <color name="emo_line">#cfcfcf</color>
+    <color name="pink">#fe4ca4</color>
+    <color name="grey">#787878</color>
+    <color name="main_menu_line">#e2d2bb</color>
+    <color name="main_menu_down">#f9efe2</color>
+    <color name="chat_my_gift_line">#ddc5b1</color>
+    <color name="chat_my_gift_line2">#ddc0a8</color>
+    <color name="chat_my_gift_name">#222222</color>
+    <color name="chat_my_gift_price">#7C7C7C</color>
+    <color name="ecf0f1">#ecf0f1</color>
+    <color name="mysettingactivity_text_color">#2d3f51</color>
+    <color name="followed">#95a5a6</color>
+
+    <color name="comment_reply_normal">#eeeeee</color>
+    <color name="comment_reply_down">#dddddd</color>
+    <color name="gift_background_out">#eeeeee</color>
+    <color name="gift_background_in">#fbefdd</color>
+    <color name="red">#ee524d</color>
+</resources>

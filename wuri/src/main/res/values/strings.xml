@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">戊日提醒</string>
+    <string name="wuri">戊日不朝真</string>
+    <string name="today">今天</string>
+    <string name="no_alarm">无提醒</string>
+    <string name="alarm">提醒</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- <string name="wuri_title">黄中宫-戊日提醒</string> -->
+    <string name="wuri_title">黄中宫-戊日提醒 2016</string>
+	<string name="copy_ok">复制成功</string>
+	<string name="errcode_success">分享成功</string>
+    <string name="errcode_false">分享失败</string>
+    <string name="errcode_cancel">取消分享</string>
+    <string name="wuri_title_widget">黄中宫-戊日提醒</string>
+    <string name="wuri_title_widget2">戊日提醒2016</string>
+    <string name="hzg_website">黄中宫网站 http://www.hnhzg.com</string>
+</resources>

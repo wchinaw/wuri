@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/layoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="titleClick" >
+        
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_centerInParent="true"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#eeeeee" >
+
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutTitle"
+        android:layout_marginTop="10dp"
+        android:cacheColorHint="#00000000"
+        android:fadingEdge="none"
+        android:listSelector="@drawable/comment_icon_selector"
+        android:layout_above="@+id/line1">
+
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/line1"
+        android:layout_above="@+id/layoutHzg"
+        android:background="#eeeeee"
+        android:visibility="invisible"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/layoutHzg"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/comment_icon_selector_web"
+        android:clickable="true"
+        android:onClick="webClick">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hzg_website"
+            android:id="@+id/textView2"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:textColor="#b89b28" />
+    </RelativeLayout>
+
+</RelativeLayout>
